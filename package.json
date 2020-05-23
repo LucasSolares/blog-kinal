@@ -1,0 +1,25 @@
+{
+  "name": "blog-svelte",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sapper dev",
+    "start": "node __sapper__/build",
+    "build": "sapper build",
+    "export": "sapper export"
+  },
+  "author": "Lucas Solares",
+  "license": "MIT",
+  "devDependencies": {
+    "sapper": "^0.27.13",
+    "svelte": "^3.22.2",
+    "svelte-loader": "^2.13.6",
+    "webpack": "^4.43.0"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "polka": "^0.5.2",
+    "sirv": "^0.4.2"
+  }
+}
